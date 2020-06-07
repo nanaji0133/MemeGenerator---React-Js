@@ -1,0 +1,22 @@
+body 
+{
+}
+
+img {
+    height: 100px;
+    width: 100px;
+   margin-right: 20px; 
+}
+
+.header {
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > p {
+    margin-left: 100px;
+    font-size: 50px;
+}
