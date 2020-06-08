@@ -1,5 +1,5 @@
-body 
-{
+body {
+    margin: 0px;
 }
 
 img {
@@ -19,4 +19,53 @@ img {
 .header > p {
     margin-left: 100px;
     font-size: 50px;
+}
+
+.memegenerator {
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;   
+}
+
+.form > button {
+    background-color: blueviolet;
+    height: 2.56em;
+}
+
+.form > input {
+    height: 2em;
+}
+
+.meme {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.meme > img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+.top {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.bottom {
+    position: absolute;
+    top: 80%;
+    color: aliceblue;
+    text-align: center;
 }
